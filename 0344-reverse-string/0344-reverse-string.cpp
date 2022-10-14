@@ -11,6 +11,6 @@ void Solution::reverseString(vector<char>& s) {
         s[left] = s[right];
         s[right] = aux;
     }
-    return;
+    
 }
 /*********************************************************************/
